@@ -1,0 +1,9 @@
+Speciality-pharma
+speciality-process-transactioncall.
+speciality-program-Configuration
+speciality-redis-scheduler
+speciality-rems-confguration
+speciality-rph--verification
+speciality-rxhub-gateway
+speciality-rx-clarification
+speciality-scheduling-listners

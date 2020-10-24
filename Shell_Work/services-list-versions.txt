@@ -1,0 +1,9 @@
+speciality-pharma : B28-S1J8-ae
+speciality-process-transactioncall : Lj-1234-er
+speciality-program-configuration : RJvjs-2w828-af
+speciality-redis-scheduler : 123-KJ-09
+speciality-rems-configuration : BJK-001
+speciality-rph-verification : IJN-009
+speciality-rxhub-gateway : KJ-11123
+speciality-rx-clarification : KNM-99865
+speciality-scheduling-listners : LKJ-7754

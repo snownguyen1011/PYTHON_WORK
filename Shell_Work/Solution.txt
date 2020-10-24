@@ -1,0 +1,12 @@
+1.  TO SHOW VALID ONES
+comm -12 validinput.txt invalidinput.txt   >> VALID.TXT
+
+2. TO SHOW INVALID ONES
+comm -13 validinput.txt invalidinput.txt   >> INVALID.TXT
+
+3. FILTERING ONLY SERVICE NAMES
+cat services-list-versions.txt |cut -d ":" -f1 >> ONLYSERVICES.TXT
+
+4. FILTERING ONLY SCHEDULERS
+comm -12 valid.txt Scheduler-Services.txt >> VALIDSCHEDULERS.TXT 
+

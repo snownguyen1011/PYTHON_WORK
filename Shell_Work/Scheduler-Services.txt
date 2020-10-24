@@ -1,0 +1,5 @@
+speciality-redis-scheduler
+speciality-intake-scheduler
+speciality-workflow-scheduler
+speciality-pharma-scheduler
+speciality-entity-attributes

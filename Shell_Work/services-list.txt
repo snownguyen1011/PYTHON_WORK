@@ -1,0 +1,6 @@
+speciality-redis-scheduler
+speciality-rems-configuration
+speciality-rph-verification
+speciality-rxhub-gateway
+speciality-rx-clarification
+speciality-scheduling-listners
