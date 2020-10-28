@@ -34,4 +34,8 @@ print(type(result))
 dragonLoot3 = ['gold coin', 'dagger', 'gold coin', 'gold coin', 'ruby']
 
 
-
+# Count occurrences of all the unique items
+L = ['a', 'b', 'c', 'b', 'a', 'a', 'a']
+from collections import Counter
+print(Counter(L))
+# Prints Counter({'a': 4, 'b': 2, 'c': 1})

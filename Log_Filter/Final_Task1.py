@@ -33,7 +33,7 @@ for i in lines:
         postDictionary[ip] += int(bytes)
 
 for k,v in getDictionary.items():
-    print("Host:", k, "\t GET Bytes:", v)
+    print("Host:", k.ljust(15), "\t GET Bytes:", v)
 
 for k,v in postDictionary.items():
-    print("Host:", k, "\t POST Bytes:", v)
+    print("Host:", k.ljust(15), "\t POST Bytes:", v)

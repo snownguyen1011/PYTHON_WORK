@@ -97,15 +97,6 @@ dragonLoot_dict = {i: dragonLoot.count(i) for i in dragonLoot}
 print(dragonLoot_dict)
 
 
-
-
-
-
-
-
-
-
-
 # inv = {'gold coin': 42, 'rope': 1}
 # dragonLoot = ['gold coin', 'dagger', 'gold coin', 'gold coin', 'ruby']
 #
