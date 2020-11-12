@@ -1,7 +1,6 @@
 import random
 import time
 
-
 class CorrectChair:
     """ A Chair on a chairlift
         Checking loading correct number of Occupants
@@ -14,17 +13,16 @@ class CorrectChair:
         self.count = 0
 
     def load(self, number):
-        new_val = self._check (self.count + number)
+        new_val = self._check(self.count + number)
         self.count = new_val
 
     def unload(self, number):
-        new_val = self._check (self.count - number)
+        new_val = self._check(self.count - number)
         self.count = new_val
 
     def _check(self, number):
         if number > self.max_occupants:
-            raise ValueError ('Invalid count:{}'.format (
-                number))
+            raise ValueError('Invalid count:{}'.format(number))
         return number
 
 

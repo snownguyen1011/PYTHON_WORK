@@ -25,7 +25,7 @@ class RightSubclass (BaseClass):
         self.num_right_calls += 1
 
 
-class Subclass (LeftSubclass, RightSubclass):
+class Subclass(LeftSubclass, RightSubclass):
     num_sub_calls = 0
 
     def call_me(self):
@@ -34,7 +34,7 @@ class Subclass (LeftSubclass, RightSubclass):
         print ("Calling method on Subclass")
         self.num_sub_calls += 1
 
-class Subclass1 ( RightSubclass, LeftSubclass):
+class Subclass1(RightSubclass, LeftSubclass):
     num_sub_calls = 0
 
     def call_me(self):
