@@ -3,7 +3,6 @@ student_jane = {'gpa': 3.8, 'major': 'chemistry', 'name': 'Jane Jones'}
 student_zoe = {'gpa': 3.4, 'major': 'literature', 'name': 'Zoe Fox'}
 students = [student_joe, student_jane, student_zoe]
 
-
 ####### METHOD 1 - OLD WAY
 def max_by_gpa(items):
     biggest = items[0]
@@ -13,10 +12,10 @@ def max_by_gpa(items):
             return biggest
 
 print("METHOD 1: ", max_by_gpa (students))
-
+#### FUNCTION AS AN OBJECT #####
 def get_gpa(who):
     return who["gpa"]
-
+################################
 ####### METHOD 2 - NEW WAY
 nums = ["12", "7", "30", "14", "3"]   ### items are Strings
 print("Max of List nums:(WRONG WAY) ",max(nums))
