@@ -13,7 +13,6 @@ def SECOND():
 
 schedule.every(1).minutes.do(MINUTE)
 schedule.every(1).seconds.do(SECOND)
-
 while True:
     schedule.run_pending()
     time.sleep(1)

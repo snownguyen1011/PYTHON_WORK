@@ -1,0 +1,10 @@
+INFO:root:{
+        "product_id": 100,
+        "product_name": "Test_Product",
+        "quantity": 2,
+        "cost": 10.0,
+        "user": "Ravi",
+        "coupon": "50OFF",
+        "date": "2020-11-29 19:06:14.615852",
+        "unit_cost": 10
+}
