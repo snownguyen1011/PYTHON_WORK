@@ -1,3 +1,7 @@
+# a decorator is just a normal, boring function. It happens to be a function taking exactly one argument,
+# which is itself a function. And when called, the decorator returns a different function.
+
+
 ######   DECORATOR EXAMPLE 1 DECLARATION #####
 def printlog(func):
     def wrapper(arg):

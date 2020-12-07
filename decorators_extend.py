@@ -78,14 +78,13 @@ def order_log(func):
         return func(*args, **kwargs)
     return order_logger
 
-
 def time_log(func):
     @wraps (wrapped=func)
     def time_logger(*args, **kwargs):
+        # nonlocal timenow
         kwargs['date'] = str(datetime.now ())
         return func(*args, **kwargs)
     return time_logger
-
 
 @time_log
 @order_log
