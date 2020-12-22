@@ -6,7 +6,8 @@
 # it is a nested function
 # it has access to a free variable in outer scope
 # it is returned from the enclosing function
-# A free variable is a variable that is not bound in the local scope. In order for closures to work with immutable variables such as numbers and strings, we have to use the nonlocal keyword.
+# A free variable is a variable that is not bound in the local scope.
+# In order for closures to work with immutable variables such as numbers and strings, we have to use the nonlocal keyword.
 #
 # Python closures help avoiding the usage of global values and provide some form of data hiding. They are used in Python decorators.
 ###############################################

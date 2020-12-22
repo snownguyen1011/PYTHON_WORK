@@ -91,10 +91,10 @@
 
 
 ######## New Program
-dragonLoot = ['gold coin', 'dagger', 'gold coin', 'gold coin', 'ruby']
-dragonLoot_dict = {i: dragonLoot.count(i) for i in dragonLoot}
-
-print(dragonLoot_dict)
+# dragonLoot = ['gold coin', 'dagger', 'gold coin', 'gold coin', 'ruby']
+# dragonLoot_dict = {i: dragonLoot.count(i) for i in dragonLoot}
+#
+# print(dragonLoot_dict)
 
 
 # inv = {'gold coin': 42, 'rope': 1}
@@ -111,3 +111,53 @@ print(dragonLoot_dict)
 #
 # inv = addToInventory(inv, dragonLoot)
 # displayInventory(inv)
+
+
+# my_var = "hello"
+#
+# def change(s):
+#     s= s + 'world'
+#     return s
+#
+# def change1(s):
+#     global my_var
+#     my_var= s+'world'
+#     return my_var
+#
+# print(my_var)
+#
+# # print(change(my_var))
+# #
+# # print(my_var)
+#
+# print(change1(my_var))
+#
+# print(my_var)
+
+############################
+class CapitalIterable:
+    def __init__(self, string):
+        self.string = string
+
+    def __iter__(self):
+        return CapitalIterator (self.string)
+
+
+class CapitalIterator:
+    def __init__(self, string):
+        self.words = [w.capitalize () for w in string.split ()]
+        self.index = 0
+
+    def __next__(self):
+        if self.index == len (self.words):
+            raise StopIteration ()
+        word = self.words[self.index]
+        self.index += 1
+        return word
+
+    def __iter__(self):
+        return self
+
+
+var = CapitalIterable("This is Iterator Pattern Test")
+print([x for x in iter(var)])
